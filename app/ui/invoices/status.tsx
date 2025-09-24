@@ -17,7 +17,7 @@ export default function InvoiceStatus({ status }: { status: string }) {
           Pending
           <ClockIcon className="ml-1 w-4 text-gray-500" />
         </>
-      ) : null}
+      ) : null} 
       {status === 'paid' ? (
         <>
           Paid
